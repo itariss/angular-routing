@@ -6,13 +6,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { PrimeiraPaginaComponent } from './primeira-pagina/primeira-pagina.component';
 import { SegundaPaginaComponent } from './segunda-pagina/segunda-pagina.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { PaginaParametrosComponent } from './pagina-parametros/pagina-parametros.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PrimeiraPaginaComponent,
     SegundaPaginaComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    PaginaParametrosComponent
   ],
   imports: [
     BrowserModule,
